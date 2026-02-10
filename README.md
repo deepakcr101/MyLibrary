@@ -35,8 +35,8 @@ Follow these steps to get the application running.
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
-cd library
+git clone https://github.com/deepakcr101/MyLibrary.git
+cd MyLibrary
 ```
 
 ### 2. Run the Neo4j Database
@@ -54,6 +54,8 @@ docker run \
 *   This command starts a Neo4j container.
 *   The database credentials will be `neo4j` / `password123`.
 *   The database will be accessible on port `7687` (Bolt protocol) and `7474` (HTTP browser).
+
+* OR SIMPLY CREATE A LOCAL INSTANCE OF YOUR DATABASE
 
 ### 3. (Optional) Corporate Proxy Setup for Maven
 
